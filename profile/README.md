@@ -82,3 +82,16 @@ Mantén pulsada la tecla Ctrl y haz clic en el enlace para abrirlo en el navegad
 
 > 📌 Deja la terminal abierta mientras trabajas. Cada vez que se cierre el servidor de desarrollo, tendrás que volver a ejecutar `npm run dev` para arrancarlo de nuevo.
 ````
+
+#### 📥 4. Instalar las dependencias después de clonar un repositorio
+
+Cuando clones un repositorio, tendrás que instalar las dependencias de cada proyecto que contenga antes de arrancarlo.
+
+Abre PowerShell, entra en la carpeta del proyecto y ejecuta:
+
+```powershell
+cd nombre-del-proyecto
+npm install
+```
+
+> 💡 Si el repositorio contiene varios proyectos, repite este paso dentro de la carpeta de cada uno. Ejecuta `npm install` en la carpeta donde se encuentre su archivo `package.json`.
