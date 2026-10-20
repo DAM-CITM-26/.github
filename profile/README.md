@@ -1,4 +1,3 @@
-````markdown
 # 🎓 DAM-CITM-26
 
 Bienvenidos a la organización de **DAM-CITM-26**.
@@ -7,7 +6,7 @@ Utilizaremos esta organización para realizar los ejercicios de clase y crear lo
 
 Aquí iremos organizando los proyectos que trabajemos durante el curso.
 
----
+***
 
 ## 🚀 Guía rápida y consejos
 
@@ -28,7 +27,7 @@ Cada comando debe mostrar el número de versión correspondiente.
 
 > ⚠️ Si alguno no muestra la versión o aparece un error indicando que el comando no se reconoce, sigue la guía de la clase 9 antes de continuar.
 
----
+***
 
 ### 📂 2. Crear un proyecto
 
@@ -66,7 +65,7 @@ npm install
 
 > 💡 La instalación inicial de dependencias solo hace falta realizarla una vez al crear el proyecto; no es necesario repetirla cada vez que quieras arrancarlo.
 
----
+***
 
 ### 🌐 3. Arrancar la web en el navegador
 
@@ -81,9 +80,10 @@ Este comando inicia un servidor de desarrollo local. En la terminal aparecerá u
 Mantén pulsada la tecla Ctrl y haz clic en el enlace para abrirlo en el navegador.
 
 > 📌 Deja la terminal abierta mientras trabajas. Cada vez que se cierre el servidor de desarrollo, tendrás que volver a ejecutar `npm run dev` para arrancarlo de nuevo.
-````
 
-#### 📥 4. Instalar las dependencias después de clonar un repositorio
+***
+
+### 📥 4. Instalar las dependencias después de clonar un repositorio
 
 Cuando clones un repositorio, tendrás que instalar las dependencias de cada proyecto que contenga antes de arrancarlo.
 
